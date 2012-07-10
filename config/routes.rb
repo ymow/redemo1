@@ -1,4 +1,6 @@
 Redemo1::Application.routes.draw do
+  resources :microposts
+
   get "static_pages/home"
 
   get "static_pages/help"
