@@ -18,7 +18,6 @@ describe "Static pages" do
     	visit '/static_pages/home'
     	page.should_not have_selector('title', :text =>'|Home')
     end
-   
-
   end
+  
 end
